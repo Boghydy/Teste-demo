@@ -18,4 +18,8 @@ class CevaTest {
     void egalCuDoi() {
         assertEquals(c.egalCuDoi(), 2);
     }
+    @Test
+    void egalCuTrei() {
+        assertEquals(c.egalCuDoi(), 3);
+    }
 }
